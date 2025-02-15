@@ -46,11 +46,11 @@
 }
 
 .profile-container {
-    position: relative;
+    position:absolute;
 }
 
-#social-icons {
-    transform: translateY(-50%);
+.social-icons {
+    transform: translateY(-100%);
     display: flex;
     flex-direction: column;
 }
@@ -82,4 +82,5 @@
 
 .social-icon:hover img {
     filter: brightness(0) invert(1);
-}
+} 
+

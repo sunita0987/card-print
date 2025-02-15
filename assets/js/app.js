@@ -1,9 +1,9 @@
 
 const users = [
-    { name: "Gustavo Herwitz", title: "UI/UX Designer",img : "./assets/images/app.png" },
-    { name: "Phillip Curtis", title: "Graphic Designer", img: "./assets/images/images.png" },
-    { name: "Talan Torff", title: "Web Developer", img: "./assets/images/design.png" },
-    { name: "Abram Vaccaro", title: "App Developer", img: "./assets/images/web.png" }
+    { name: "Gustavo Herwitz", title: "UI/UX Designer",img : "./assets/images/images.png" },
+    { name: "Phillip Curtis", title: "Graphic Designer", img: " ./assets/images/design.png" },
+    { name: "Talan Torff", title: "Web Developer", img: "./assets/images/web.png" },
+    { name: "Abram Vaccaro", title: "App Developer", img: "./assets/images/app.png" }
 ];
 
 function createCards() {
@@ -24,12 +24,10 @@ createCards();
 
 document.addEventListener("DOMContentLoaded", function () {
     const icons = document.querySelectorAll(".social-icon");
-
     icons.forEach(icon => {
         icon.addEventListener("mouseenter", function () {
             this.style.backgroundColor = this.getAttribute("data-color");
         });
-
         icon.addEventListener("mouseleave", function () {
             this.style.backgroundColor = "white";
         });
