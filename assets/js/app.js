@@ -1,6 +1,6 @@
 const cardsData = [
     {
-        image: "./assets/images/app.png",
+        image: "./assets/images/images.png",
         name: "Gustavo Herwitz",
         job: "UI/UX Designer",
         svg_1: `<svg width="11" height="21" viewBox="0 0 11 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -41,7 +41,7 @@ const cardsData = [
 `,
     },
     {
-        image: "./assets/images/images.png",
+        image: "./assets/images/app.png",
         name: "Talan Torff",
         job: "Web Developer",
         svg_1: `<svg width="11" height="21" viewBox="0 0 11 21" fill="none" xmlns="http://www.w3.org/2000/svg">
